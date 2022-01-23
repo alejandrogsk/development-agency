@@ -1,0 +1,32 @@
+.section3 {
+    background-color: $c-yellow;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    position: relative;
+
+
+    @include respond( tab-big ) { grid-template-columns: 1fr; }
+
+    &__content { @include respond( tab-big ) { grid-row: 2/3; } }
+
+
+    &__image-container { 
+        position: relative; 
+        @include respond( tab-big ) {
+            min-height: 40rem;
+        }
+    }
+    &__image {
+        height: unset !important;
+        object-fit: contain;
+        position: relative !important;
+        width: 100% !important;
+        
+        @include respond( tab-big ) {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

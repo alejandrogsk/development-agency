@@ -1,0 +1,74 @@
+{
+    "section1": {
+        "title": "Design and development of digital products",
+        "subtitle": "We are a development and digital marketing agency located in Argentina, we are dedicated to helping companies and entrepreneurs to digitize their relationship with their clients."    
+    },
+    "section2":{
+        "title": "We focus on building a relationship with our clients. In this way we can better understand your needs and thus create better products.",
+        "cta":"Contact Us"
+    },
+    "section3":{
+        "title": "OUR SPECIALTY IS THE DEVELOPMENT OF ECOMMERCE",
+        "content": [
+            "The increase in online commerce is not news to anyone, during 2020 and 2021 the increase in the adoption of e-commerce by consumers has skyrocketed. It is estimated that by 2025 the growth of electronic commerce in Argentina will be 56%.",
+            "To remain competitive in a more developed market and with more demanding consumers, companies must implement better solutions for their online sales if they want to remain relevant in the coming years.",
+            "The first step for any company is to have its online store ready, and at DesignStudio we are here to help you."
+        ],
+        "cta": "Show me more",
+        "image": "/images/laptop.jpg"
+    },
+    "section4": {
+        "title": "Modern problems require modern solutions.",
+        "content": [
+            "Technology has had an impact on companies in all sectors in recent years and without a doubt this is a phenomenon that is on the rise.",
+            "It doesn't matter if you market physical products, digital products, or services, if your business isn't using technology, it's time to start.",
+            "En DesignStudio estamos para ayudarle a digitalizar la adquisición y relación con sus clientes."
+        ],
+        "services": [
+            {
+                "image": "/logoservices/shopping-bag.svg",
+                "title": "Ecommerce",
+                "content": "If you are dedicated to the commercialization of products and what you are looking for is to have a visually attractive online store, with all the functionalities that an ecommerce requires in 2022, this is the service you need."
+            },
+            {
+                "image": "/logoservices/code.svg",
+                "title": "Web Development",
+                "content": "We create the cover letter of your company on the internet. Ideal for studios that sell services, companies that sell custom products or companies that need an institutional site."
+            },
+            {
+                "image": "/logoservices/marketing.svg",
+                "title": "Digital Marketing",
+                "content": "Marketing is as important as the product or service you offer, we take care of carrying out a digital marketing and advertising strategy for your business."
+            }
+        ]
+    },
+    "section5": {
+        "title": "We use technology based on your needs.",
+        "techs": [
+            "/logos/netlify.png",
+            "/logos/active-campaing.png",
+            "/logos/g-ads.png",
+            "/logos/react.png",
+            "/logos/gatsby.png",
+            "/logos/nextjs.png",
+            "/logos/laravel.png",
+            "/logos/vercel.png",
+            "/logos/g-analytics.png",
+            "/logos/wordpress.png",
+            "/logos/woocommerce.png"
+        ]
+    },
+    "section6": {
+        "title": "Trabajamos con nuestros socios.",
+        "partners": [
+            {
+                "image": "/images/hostinger.png",
+                "content": "Hostinger is one of the largest web hosting providers in the world, due to its vast network of globally distributed servers."
+            },
+            {
+                "image": "/images/tiendanube.png",
+                "content": "Tienda Nube is the largest company in Argentina dedicated to the development of infrastructure for ecommerce."
+            }
+        ]
+    }
+}

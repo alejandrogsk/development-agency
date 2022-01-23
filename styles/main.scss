@@ -1,0 +1,22 @@
+@import './global/globals.scss';
+@import 'global/variables.scss';
+@import 'global/mixins.scss';
+
+@import './specials/lines.scss';
+@import './specials/buttons.scss';
+@import './specials/slider.scss';
+@import './specials/navigationIcon.scss';
+@import './specials/menu.scss';
+
+@import './extrastyles/spacing.scss';
+@import './extrastyles/text.sizes.scss';
+
+@import './layout/footer.scss';
+@import './layout/header.scss';
+
+@import './home/home.section1.scss';
+@import './home/home.section2.scss';
+@import './home/home.section3.scss';
+@import './home/home.section4.scss';
+@import './home/home.section5.scss';
+@import './home/home.section6.scss';

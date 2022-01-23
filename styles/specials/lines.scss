@@ -1,0 +1,16 @@
+.line {
+    position: relative;
+    display: block;
+}
+
+.line-yellow {
+    background-color: $c-yellow;
+}
+.line-white {
+    background-color: $c-white;
+}
+
+.line-medium {
+    width: 10rem;
+    height: 3px;
+}

@@ -1,0 +1,74 @@
+{   
+    "section1": {
+        "title": "Diseño y desarrollo de productos digitales",
+        "subtitle": "Somos una agencia de desarrollo y marketing digital ubicada en Entre Ríos, Argentina, nos dedicamos a ayudar a pymes y emprendedores a digitalizar su relación con sus clientes."
+    },
+    "section2":{
+        "title": "Nos enfocamos en construir una relación con nuestros clientes. De esta forma podemos entender mejor sus necesidades y así crear mejores productos.",
+        "cta": "Contactenos"
+    },
+    "section3":{
+        "title": "NUESTRA ESPECIALIDAD ES EL DESARROLLO DE ECOMMERCE",
+        "content": [
+            "El aumento en el comercio online no es una novedad para nadie, durante el 2020 y 2021 el aumento en la adopción del ecommerce por parte de los consumidores se ha disparado. Se estima que para 2025 el crecimiento del comercio electrónico en Argentina será del 56%.",
+            "Para seguir siendo competitivas en un mercado más desarrollado y con consumidores más exigentes las compañías deben implementar mejores soluciones de cara a sus ventas online si quieren mantenerse relevantes en los próximos años.",
+            "El primer paso para toda compañía es tener lista su tienda online, y en DesignStudio estamos para ayudarte."
+        ],
+        "cta": "Ver más",
+        "image": "/images/laptop.jpg"
+    },
+    "section4": {
+        "title": "Problemas modernos requieren soluciones modernas.",
+        "content": [
+            "La tecnología ha tenido un impacto en las empresas de todos los sectores durante los últimos años y sin lugar a dudas este es un fenómeno que va en aumento.",
+            "No importa que comercialice productos físicos, productos digitales o servicios, si su negocio no está utilizando tecnología, es momento de empezar a hacerlo.",
+            "En DesignStudio estamos para ayudarle a digitalizar la adquisición y relación con sus clientes."
+        ],
+        "services": [
+            {
+                "image": "/logoservices/shopping-bag.svg",
+                "title": "Ecommerce",
+                "content": "Si se dedica a la comercialización de productos y lo que está buscando es tener una tienda online atractiva visualmente, con todas las funcionalidades que un ecommerce requiere en el 2022, este es el servicio que necesita."
+            },
+            {
+                "image": "/logoservices/code.svg",
+                "title": "Desarrollo Web",
+                "content": "Creamos la carta de presentación de su empresa en internet. Ideal para estudios que venden servicios, empresas que venden productos a medida o empresas que necesitan un sitio institucional."
+            },
+            {
+                "image": "/logoservices/marketing.svg",
+                "title": "Marketing Digital",
+                "content": "El marketing es tan importante como el producto o servicio que usted ofrece, nos ocupamos de llevar a cabo una estrategia de marketing y publicidad digital para su negocio."
+            }
+        ]
+    },
+    "section5": {
+        "title": "Empleamos tecnología en función de sus necesidades.",
+        "techs": [
+            "/logos/netlify.png",
+            "/logos/active-campaing.png",
+            "/logos/g-ads.png",
+            "/logos/react.png",
+            "/logos/gatsby.png",
+            "/logos/nextjs.png",
+            "/logos/laravel.png",
+            "/logos/vercel.png",
+            "/logos/g-analytics.png",
+            "/logos/wordpress.png",
+            "/logos/woocommerce.png"
+        ]
+    },
+    "section6": {
+        "title": "Trabajamos con nuestros socios",
+        "partners": [
+            {
+                "image": "/images/hostinger.png",
+                "content": "Hostinger es uno de los proovedores de alojamietno web mas grandes del mundo, debido a su amplia red de servidores distribuidos a nivel global."
+            },
+            {
+                "image": "/images/tiendanube.png",
+                "content": "Tienda nube es la empresa mas grande de argentina dedicada al desarrollo de infraestructura para ecommerce."
+            }
+        ]
+    }
+}

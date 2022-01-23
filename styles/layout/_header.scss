@@ -1,0 +1,14 @@
+header {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 2rem;
+    
+    & > .site-title {
+        margin-top: 1rem;
+        color: $c-white;
+        font-size: 2rem;
+    }
+}

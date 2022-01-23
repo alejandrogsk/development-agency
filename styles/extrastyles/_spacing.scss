@@ -1,0 +1,40 @@
+.padding-section {
+    padding: 5rem;
+    @include respond( tab-big ) { padding: 2rem; }
+    @include respond(phone-tab) { padding: 1.5rem; }
+}
+
+.margin {
+    //this is for the margin in each section of a page
+    &-section {
+        margin: 5rem;
+        @include respond( tab-big ) { margin: 2rem; }
+        @include respond(phone-tab) { margin: 1.5rem; }
+    }
+
+    //Only margin at the sides
+    &-sides {
+        margin: 0 5rem;
+        @include respond( tab-big ) { margin: 0 2rem; }
+        @include respond(phone-tab) { margin: 0 1.5rem; }
+    }
+
+    //Margin at the bottom
+    &-b-1{
+        margin-bottom: 1.2rem;
+        @include respond( tab-big ) { margin-bottom: 1rem; }
+        @include respond(phone-tab) { margin-bottom: .8rem; }
+    }
+
+    &-b-2{
+        margin-bottom: 1.5rem;
+        @include respond( tab-big ) { margin-bottom: 1.25rem; }
+        @include respond(phone-tab) { margin-bottom: 1rem; }
+    }
+
+    &-b-3 {
+        margin-bottom: 3rem;
+        @include respond( tab-big ) { margin-bottom: 2rem; }
+        @include respond(phone-tab) { margin-bottom: 1.5rem; }
+    }
+}

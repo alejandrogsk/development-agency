@@ -1,0 +1,38 @@
+.vertical__menu {
+    background-color: $c-yellow;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 30rem;
+    z-index: 1;
+
+    border-left: 1px $c-black solid;
+
+    transform: translateX(30rem);
+    transition: 0.5s ease-in-out;
+
+    @include respond(mobile-large) { width: 25rem; }
+    @include respond(mobile) { width: 20rem; }
+
+    
+    &.show-menu {transform: translateX(0rem);}
+
+    & > ul {
+        list-style: none; 
+        margin: 5rem auto auto;
+        padding: 0 3rem;
+
+        & > li{ 
+            margin-top: 1rem;
+            text-transform: uppercase;
+            &> a{
+            font-size: 1.2rem;
+            font-family: $f-primary;
+
+        }
+        }
+    }
+}

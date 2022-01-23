@@ -1,0 +1,54 @@
+footer {
+    background-color: $c-yellow;
+    padding: 5rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @include respond( tab-big ) { padding: 2.5rem; }
+    @include respond(phone-tab) { padding: 1.5rem; }
+
+    .f__line {
+        display: inline-block;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+        margin-bottom: 2rem;
+    }
+
+    .f__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include respond(mobile-large){
+            flex-direction: column-reverse;
+            align-items: start;
+        }
+
+        & > ul {
+            list-style: none;
+            margin: 0;
+            display: flex;
+
+            @include respond(mobile-large){
+                flex-direction: column;
+                padding: 0;
+                margin-bottom: 1rem;
+            }
+
+            & > li {
+                text-transform: capitalize;
+                cursor: pointer;
+                
+                &:not(:first-child) {
+                    margin-left: .5rem;
+
+                    @include respond(mobile-large){ margin-left: 0; }
+                }
+
+                
+            }
+        }
+    }
+}
