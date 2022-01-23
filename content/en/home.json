@@ -1,7 +1,7 @@
 {
     "section1": {
-        "title": "Design and development of digital products",
-        "subtitle": "We are a development and digital marketing agency located in Argentina, we are dedicated to helping companies and entrepreneurs to digitize their relationship with their clients."    
+        "title": "Design and development of digital products.",
+        "subtitle": "We are a development and digital marketing agency located in Argentina, we are dedicated to helping companies and entrepreneurs to digitize their relationship with their clients"    
     },
     "section2":{
         "title": "We focus on building a relationship with our clients. In this way we can better understand your needs and thus create better products.",
@@ -59,7 +59,7 @@
         ]
     },
     "section6": {
-        "title": "Trabajamos con nuestros socios.",
+        "title": "We work with our partners.",
         "partners": [
             {
                 "image": "/images/hostinger.png",

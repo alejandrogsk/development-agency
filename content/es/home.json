@@ -1,7 +1,7 @@
 {   
     "section1": {
-        "title": "Diseño y desarrollo de productos digitales",
-        "subtitle": "Somos una agencia de desarrollo y marketing digital ubicada en Entre Ríos, Argentina, nos dedicamos a ayudar a pymes y emprendedores a digitalizar su relación con sus clientes."
+        "title": "Diseño y desarrollo de productos digitales.",
+        "subtitle": "Somos una agencia de desarrollo y marketing digital ubicada en Entre Ríos, Argentina, nos dedicamos a ayudar a pymes y emprendedores a digitalizar su relación con sus clientes"
     },
     "section2":{
         "title": "Nos enfocamos en construir una relación con nuestros clientes. De esta forma podemos entender mejor sus necesidades y así crear mejores productos.",
@@ -59,7 +59,7 @@
         ]
     },
     "section6": {
-        "title": "Trabajamos con nuestros socios",
+        "title": "Trabajamos con nuestros socios.",
         "partners": [
             {
                 "image": "/images/hostinger.png",

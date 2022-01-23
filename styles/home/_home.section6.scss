@@ -1,5 +1,12 @@
 .section6 {
     min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include respond(tab){
+        align-items: flex-start;
+    }
 
     & > h2 {
         text-align: center;
@@ -22,6 +29,9 @@
             & > p {
                 margin-top: 1rem;
                 text-align: center;
+                @include respond(tab){
+                    text-align: start;
+                }
             }
         }
     }
