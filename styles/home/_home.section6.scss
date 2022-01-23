@@ -8,10 +8,6 @@
         align-items: flex-start;
     }
 
-    & > h2 {
-        text-align: center;
-    }
-
     &__partners {
         display: grid;
         grid-template-columns: 1fr 1fr;
