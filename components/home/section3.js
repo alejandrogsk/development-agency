@@ -13,7 +13,7 @@ const Section3 = ({title,content,cta,image}) => {
                 <BtnSection3 cta={cta}/>
             </div>
             <div className="section3__image-container">
-                <Image layout='fill' src={image} className="section3__image" />
+                <Image layout='fill' alt="Tienda online" src={image} className="section3__image" />
             </div>
         </section>
     )

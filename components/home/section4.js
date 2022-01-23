@@ -15,7 +15,7 @@ const Section4 = ({title, content, services}) => {
                         return(
                             <div key={index} className="section4__service">
                                 <div>
-                                <img src={service.image} alt={service.title} className="section4__service--img"/>
+                                <img  src={service.image} alt={service.title} className="section4__service--img"/>
                                 </div>
                                 <h3>{service.title}</h3>
                                 <p>{service.content}</p>

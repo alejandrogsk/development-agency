@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
+import Image from "next/image";
 
 
 
@@ -25,8 +26,11 @@ const Slider = ({ techs }) => {
                 {
                     techs.map((techs, i ) => {
                         return(
-                            <div key={i} className="slider__slide">
-                                <img src={techs} />
+                            <div alt={techs} key={i} className="slider__slide">
+                                {/* <div className="slider__slide--container">
+                                <Image layout="fill" src={techs} />
+                                </div> */}
+                                <img alt={'logo image'} src={techs} />
                             </div>
                         )
                     })
@@ -36,7 +40,7 @@ const Slider = ({ techs }) => {
                     techs.map((techs, i ) => {
                         return(
                             <div key={i} className="slider__slide">
-                                <img src={techs} />
+                                <img alt={'logo image'} src={techs} />
                             </div>
                         )
                     })

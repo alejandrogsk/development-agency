@@ -9,7 +9,7 @@ const Section6 = ({ title, partners }) => {
             <div className="section6__partners">
                 {partners.map((partner, i) => {
                     return <div key={i}>
-                        <Image src={partner.image} width={500} height={130}/>    
+                        <Image alt={`${partner.image} image`} src={partner.image} width={500} height={130}/>    
                         <p>{partner.content}</p>
                     </div>;
                 })}
