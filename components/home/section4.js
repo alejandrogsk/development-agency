@@ -5,6 +5,7 @@ const Section4 = ({title, content, services}) => {
         <section className="section4 margin-section">
             <div >
                 <h2 className="font-xl margin-b-2">{title}</h2>
+                <span className="line line-yellow line-medium margin-b-2"></span>
                 {
                     content.map((paragraph, index) => <p key={index} className="font-m margin-b-2">{paragraph}</p>)
                 }

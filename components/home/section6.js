@@ -4,7 +4,7 @@ import React from "react";
 const Section6 = ({ title, partners }) => {
     return (
         <section className="section6 margin-section">
-            <h2>{title}</h2>
+            <h2 className="font-xl ">{title}</h2>
 
             <div className="section6__partners">
                 {partners.map((partner, i) => {

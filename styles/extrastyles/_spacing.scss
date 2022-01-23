@@ -1,15 +1,15 @@
 .padding-section {
     padding: 5rem;
-    @include respond( tab-big ) { padding: 2rem; }
-    @include respond(phone-tab) { padding: 1.5rem; }
+    @include respond( tab-big ) { padding: 2.5rem; }
+    @include respond(phone-tab) { padding: 2rem; }
 }
 
 .margin {
     //this is for the margin in each section of a page
     &-section {
         margin: 5rem;
-        @include respond( tab-big ) { margin: 2rem; }
-        @include respond(phone-tab) { margin: 1.5rem; }
+        @include respond( tab-big ) { margin: 2.5rem; }
+        @include respond(phone-tab) { margin: 2rem; }
     }
 
     //Only margin at the sides
