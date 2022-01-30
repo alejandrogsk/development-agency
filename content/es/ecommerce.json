@@ -1,0 +1,36 @@
+{
+    "section1": {
+        "title": "Desarrollo de ecommerce a medida.",
+        "services": [
+            {
+                "title": "Diseño",
+                "subtitle": "Creamos un diseño que refleje el carácter de su marca con sus productos como centro de atención."
+            },
+            {
+                "title": "Desarrollo",
+                "subtitle": "Desarrollamos en función de las necesidades del cliente, también utilizamos software de terceros cuando es requerido."
+            },
+            {
+                "title": "Despliegue",
+                "subtitle": "Desplegamos su tienda a un servidor, configuramos su dominio y lo dejamos listo para funcionar."
+            },
+            {
+                "title": "Mantenimiento",
+                "subtitle": "Nos ocupamos de llevar adelante el mantenimiento de su tienda para que esta funcione correctamente."
+            }
+        ],
+        "images": {
+            "desktop": "/images/ecommercesection.png",
+            "mobile": "/images/ecommerce-mobile.svg"
+        }
+    },
+    "section2": {
+        "title": "Integramos el medio de pagos de su elección, para realizar cobros de forma segura."
+    },
+    "section3": {
+        "title": "Todos nuestros desarrollos se hacen teniendo en mente el consumo en telefonos, tables y otros dispositivos",
+        "content": "Todos nuestros desarrollos se hacen teniendo en mente el consumo en telefonos, tablets y otros dispositivos.",
+        "subtitle": "Más de un 50% de las compras por internet se realizan desde smartphones.",
+        "subcontent": "Es por esto que hacer especial enfasis en el diseño adaptado a telefonos mobiles es un requisito indispensable en cualquier tienda online."
+    }
+}
