@@ -1,6 +1,8 @@
 import Head from "next/head";
 import React from "react";
 import EcommerceSection1 from "../components/ecommerce/ecommerce-sectio1";
+import EcommerceSection2 from "../components/ecommerce/ecommerce-section2";
+import EcommerceSection3 from "../components/ecommerce/ecommerce-section3";
 import Layout from "../components/globalUi/Layout";
 import ServicesFooter from "../components/layout/servicesFooter";
 import EcommerceSpanish from "../content/es/ecommerce.json";
@@ -20,8 +22,9 @@ const Ecommerce = () => {
             </Head>
             <Layout>
               <main>
-                <EcommerceSection1 title={data.section1.title} services={data.section1.services} images={data.section1.images}/>
-                
+                <EcommerceSection1 data={data.section1}/>
+                <EcommerceSection2 data={data.section2}/>
+                <EcommerceSection3 data={data.section3}/>
                 <ServicesFooter />
               </main>
             </Layout>

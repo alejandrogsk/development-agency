@@ -5,7 +5,7 @@
     },
     "section2":{
         "title": "Nos enfocamos en construir una relación con nuestros clientes. De esta forma podemos entender mejor sus necesidades y así crear mejores productos.",
-        "cta": "Contactenos"
+        "cta": {"title":"Contactenos", "link": "/contacto"}
     },
     "section3":{
         "title": "NUESTRA ESPECIALIDAD ES EL DESARROLLO DE ECOMMERCE",
@@ -14,7 +14,7 @@
             "Para seguir siendo competitivas en un mercado más desarrollado y con consumidores más exigentes las compañías deben implementar mejores soluciones de cara a sus ventas online si quieren mantenerse relevantes en los próximos años.",
             "El primer paso para toda compañía es tener lista su tienda online, y en DesignStudio estamos para ayudarte."
         ],
-        "cta": "Ver más",
+        "cta": {"title":"Ver Más", "link": "/ecommerce"},
         "image": "/images/laptop.jpg"
     },
     "section4": {

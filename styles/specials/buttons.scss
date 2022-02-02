@@ -4,6 +4,8 @@
     text-transform: uppercase;
     font-weight: 700;
     transition: all .25s;
+    font-family: $f-primary;
+
     &:hover {
         cursor: pointer;
     }

@@ -30,11 +30,11 @@ export default function Home() {
       <Layout>
         <main>
           <Section1 title={data.section1.title} subtitle={data.section1.subtitle}/>
-          <Section2 title={data.section2.title} cta={data.section2.cta}/>
+          <Section2 title={data.section2.title} cta={data.section2.cta} />
           <Section3 title={data.section3.title} content={data.section3.content} cta={data.section3.cta} image={data.section3.image}/>
           <Section4 title={data.section4.title} content={data.section4.content} services={data.section4.services}/>
           <Section5 title={data.section5.title} techs={data.section5.techs}/>
-          <Section6 title={data.section6.title} partners={data.section6.partners} />
+          {/* <Section6 title={data.section6.title} partners={data.section6.partners} /> */}
         </main>
       </Layout>
     </>

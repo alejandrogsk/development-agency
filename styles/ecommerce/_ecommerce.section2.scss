@@ -1,0 +1,30 @@
+.ecommerce2 {
+    background-color: $c-grey;
+    padding: 5rem;
+
+    @include respond( tab-big ) { padding: 2.5rem; }
+    @include respond(phone-tab) { padding: 2rem; }
+
+
+    & > h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        max-width: 70%;
+
+        margin-left: auto;
+        margin-right: auto;
+        @include respond( tab-big ) { padding: 2rem; margin-bottom: 2rem; max-width: 85%; }
+        @include respond(phone-tab) { padding: 1.8rem; margin-bottom: 1.75rem; max-width: 100%;}
+    }
+
+    &__payments {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        @include respond( tab-big ) {
+            flex-direction: column;
+        }
+    }
+}

@@ -5,7 +5,7 @@
     },
     "section2":{
         "title": "We focus on building a relationship with our clients. In this way we can better understand your needs and thus create better products.",
-        "cta":"Contact Us"
+        "cta": {"title":"Contact Us", "link": "/contact"}
     },
     "section3":{
         "title": "OUR SPECIALTY IS THE DEVELOPMENT OF ECOMMERCE",
@@ -14,7 +14,7 @@
             "To remain competitive in a more developed market and with more demanding consumers, companies must implement better solutions for their online sales if they want to remain relevant in the coming years.",
             "The first step for any company is to have its online store ready, and at DesignStudio we are here to help you."
         ],
-        "cta": "Show me more",
+        "cta": {"title":"View More", "link": "/ecommerce"},
         "image": "/images/laptop.jpg"
     },
     "section4": {

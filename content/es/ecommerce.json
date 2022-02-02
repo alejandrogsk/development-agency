@@ -25,11 +25,21 @@
         }
     },
     "section2": {
-        "title": "Integramos el medio de pagos de su elección, para realizar cobros de forma segura."
+        "title": "Integramos el medio de pagos de su elección, para realizar transacciones de forma segura.",
+        "logos": [
+            "/images/payment/mercadopago.png",
+            "/images/payment/paypal.png",
+            "/images/payment/stripe.png"
+        ]
     },
     "section3": {
-        "title": "Todos nuestros desarrollos se hacen teniendo en mente el consumo en telefonos, tables y otros dispositivos",
+        "title": "Diseño web mobile",
         "content": "Todos nuestros desarrollos se hacen teniendo en mente el consumo en telefonos, tablets y otros dispositivos.",
+        "mockups": [
+            "/images/ecommerce-mobile-eng-1.png",
+            "/images/ecommerce-mobile-eng-2.png",
+            "/images/ecommerce-mobile-eng-3.png"
+        ],
         "subtitle": "Más de un 50% de las compras por internet se realizan desde smartphones.",
         "subcontent": "Es por esto que hacer especial enfasis en el diseño adaptado a telefonos mobiles es un requisito indispensable en cualquier tienda online."
     }

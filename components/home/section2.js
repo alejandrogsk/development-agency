@@ -1,11 +1,13 @@
 import React from 'react'
-import BtnSection2 from '../buttons/sections/btnSection2'
+import Btn1 from '../buttons/btn1'
 
 const Section2 = ({title, cta}) => {
+
+
     return (
         <section className="section2 margin-section">
             <p className="font-xl margin-b-2">{title}</p>
-            <BtnSection2 cta={cta}/>
+            <Btn1 cta={cta.title} page={cta.link}/>
         </section>
     )
 }
