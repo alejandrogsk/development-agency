@@ -11,20 +11,9 @@ const EcommerceSection3 = ({data}) => {
         <p>{content}</p>
      </div>
       <div >
-
-          <div>
-            <Image height={400} width={197.69} src={mockups[0]}/> 
-            </div>
-
-          <div>
-            
-            <Image height={400} width={197.69} src={mockups[1]}/>
-            </div>
-
-          <div>
-            
-            <Image height={400} width={197.69} src={mockups[2]}/>
-            </div>
+        {
+          mockups.map((mockup,i) => <div key={i}><Image src={mockup} height={400} width={197.69}  /></div>)
+        }
       </div>
       <div>
           

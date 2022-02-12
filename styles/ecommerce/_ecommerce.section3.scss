@@ -9,13 +9,12 @@
         grid-template-columns: max-content 1fr;
     }
 
-
     @include respond(tab-big) {
         margin: 2.5rem;
         grid-template-columns: 1fr;
     }
     @include respond(phone-tab) {
-        margin: 1rem;
+        margin: 2rem;
     }
 
     & > div:first-child {
@@ -48,11 +47,10 @@
     & > div:nth-child(2) {
         display: grid;
         grid-template-columns: repeat(3,minmax(min-content, max-content));
-        justify-items: center;
+        justify-content: center;
         
         @include respond(tab-small){
             grid-template-columns: repeat(2,minmax(min-content, max-content));
-            justify-items: center;
         }
 
         @include respond(phone-tab) {

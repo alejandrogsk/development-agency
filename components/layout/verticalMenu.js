@@ -7,7 +7,7 @@ const VerticalMenu = ({open, menuHandler}) => {
             <ul onClick={menuHandler}>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/ecommerce">Ecommerce</Link></li>
-                <li><Link href="/ecommerce">Desarrollo Web</Link></li>
+                <li><Link href="/web">Desarrollo Web</Link></li>
                 <li><Link href="/ecommerce">Marketing Digital</Link></li>
             </ul>
         </nav>

@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Btn2 from '../buttons/btn2'
-const Section3 = ({title,content,cta,image}) => {
+const Section3 = ({data}) => {
+    const {title,content,cta,image} = data;
     return (
         <section className="section3 padding-section">
             <div className="section3__content ">

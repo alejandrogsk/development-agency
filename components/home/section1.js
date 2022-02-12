@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Section1 = ({title, subtitle}) => {
+const Section1 = ({data}) => {
+    const {title, subtitle} = data;
     return (
         <section className="section1">
             <div className="margin-sides">

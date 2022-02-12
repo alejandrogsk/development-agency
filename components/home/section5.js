@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Slider from '../specials/slider'
 
-const Section5 = ({title, techs}) => {
+const Section5 = ({data}) => {
+    const {title, techs} = data;
     return (
         <section className="section5 padding-section">
             <h2 className="font-xl margin-b-2">{title}</h2>

@@ -1,8 +1,8 @@
 import React from 'react'
 import Btn1 from '../buttons/btn1'
 
-const Section2 = ({title, cta}) => {
-
+const Section2 = ({data}) => {
+    const {title, cta} = data;
 
     return (
         <section className="section2 margin-section">
